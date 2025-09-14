@@ -2,14 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>ChatEshte</title>
+  <title>ChatEshte - The Meme Zone</title>
   <style>
-    h1{
-      font-weigh: bold;
-      font-size: 14em;
+    body {
+      background: linear-gradient(135deg, #ffe082 0%, #ff8a65 100%);
+      font-family: 'Comic Sans MS', 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 7em;
+      margin-top: 60px;
+      color: #d32f2f;
+      text-shadow: 2px 2px 12px #fff176;
+      animation: shake 1.2s infinite alternate;
+    }
+    @keyframes shake {
+      0% { transform: rotate(-2deg);}
+      100% { transform: rotate(2deg);}
+    }
+    .rickroll {
+      font-size: 2em;
+      margin-top: 40px;
+      color: #616161;
+      background: #fff176;
+      display: inline-block;
+      padding: 18px 32px;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px #d32f2f33;
+      transition: background 0.3s;
+    }
+    .rickroll:hover {
+      background: #ff8a65;
+      color: #fff;
+      cursor: pointer;
+    }
+    .gif {
+      margin-top: 40px;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px #d32f2f33;
+      width: 400px;
+      max-width: 90vw;
+    }
+    .footer {
+      margin-top: 60px;
+      color: #616161;
+      font-size: 1.2em;
+      opacity: 0.7;
     }
   </style>
 </head>
-  <h1> COIAS <a href= "https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1"BOY </a> </h1>
+<body>
+  <h1>
+    COIAS
+    <a class="rickroll" href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1" target="_blank">
+      BOY
+    </a>
+  </h1>
+  <div>
+    <img class="gif" src="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif" alt="Funny dancing gif">
+  </div>
+  <div class="footer">
+    <p>Welcome to the meme zone. Never gonna give you up, never gonna let you down! 😂</p>
+  </div>
 </body>
 </html>
